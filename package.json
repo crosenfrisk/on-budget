@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crosenfrisk/on-budget/"
+    "url": "git+https://github.com/crosenfrisk/on-budget.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/crosenfrisk/on-budget/issues"
   },
-  "homepage": "https://github.com/crosenfrisk/on-budget/",
+  "homepage": "https://github.com/crosenfrisk/on-budget#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
