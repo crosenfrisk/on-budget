@@ -1,6 +1,15 @@
 let transactions = [];
 let myChart;
 
+window.addEventListener('offline', function () {
+  this.alert('You are currently offline. Any transactions you make will be updated when you regain internet connection.');
+})
+
+window.addEventListener('online', function () {
+  this.alert('You are back online. All entries have been updated.');
+})
+
+
 fetch("/api/transaction")
   .then(response => {
     return response.json();
